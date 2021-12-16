@@ -1,0 +1,36 @@
+A)los cambios que deben realizarse en el sistema para poder aplicar api rest, es agregar el router api
+con cada uno de sus endpoints, a su vez debemos crear un controlador para la api, y el modelo podemos usar las consultas
+ya realidas anteriormente.
+
+
+B) 
+Como cliente quiero poder ver mis datos personales:
+(cliente/:ID,GET,clientAPiController,getDatosPersonales)
+
+Como cliente quiero poder modificar mis datos personales:
+(cliente/:ID,PUT,clientAPiController,updateDatosPersonales)
+
+Como cliente quiero poder ver un listado de mis tarjetas:
+(cliente/tarjetas/:ID,GET,clientAPiController,getTarjetas)
+
+
+Como cliente quiero poder ver el estado actual de mi cuenta:
+(cliente/kilometros/:ID,GET,clientAPiController,getKilometros)
+
+
+Como cliente quiero poder ver mi historial de actividades dado un intervalo de dos fechas
+(actividades/:FECHA1/:FECHA2/:ID_CLIENTE,GET,clientAPiController,getActividadesPorFechas)
+
+
+Como cliente quiero poder dar de baja una tarjeta
+(cliente/tarjetas/:ID/:ID_TARJETA,DELETE,clientAPiController,deleteTarjeta)
+
+
+
+
+
+
+
+
+
+

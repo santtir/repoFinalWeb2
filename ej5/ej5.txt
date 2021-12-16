@@ -1,0 +1,41 @@
+API REST
+A) ¿Qué es, cómo funciona y cuáles son sus ventajas en el desarrollo de proyectos?
+
+es una arquitectura de desarrollo que se apoya en el protocolo http, y proporciona una api que utiliza 
+cada uno de los metodos del protocolo
+
+las ventajas son:
+cada servicio puede actualizarse independientemente mientras respete su interfaz 
+
+puede programarse en diferentes lenguajes 
+facilita la reutilizacion de codigo 
+se pueden usar servicios existentes
+y desacopla partes no relacionadas del sistema.
+
+
+ii:
+El sistema puede tener csr en el cual podriamos programar javascript con cualquieira de sus librerias sin mezclarlo con php
+y podriamos reutilizar codigo de los modelos para hacer mas facil el trabajo.
+
+
+B)
+
+Server Side Rendering:
+
+Se basa en poder renderizar el html de la parte del servidor, las renderizaciones del sitio se hacen del lado
+del servidor y no del lado del cliente
+Es un tanto mas lento que el csr.
+
+HTTP Status codes
+
+Los códigos de estado de respuesta HTTP indican si se ha completado satisfactoriamente una solicitud 
+HTTP específica.
+
+nosotros conocemos el 200:ok
+500: internal server error
+404: not found.
+
+sesiones de usuario:
+
+son una forma sencilla de almacenar los datos de nuestro usuario en la sesion, para que sea mas facil navegar
+a su vez esto hace el sitio mas seguro y nos permite dar roles a los distintos usuarios. Esto se puede usar para hacer persistente la información de estado entre peticiones de páginas.
